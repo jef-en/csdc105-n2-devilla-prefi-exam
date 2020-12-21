@@ -1,0 +1,94 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<main class="container">
+    <div class="bg-light p-5 rounded">
+    <h1>About Me</h1>
+    </div>
+</main>
+
+<div class="bg-dark card container p-0 my-2 border"  >
+    <div class="card-header text-light">
+        Personal Information
+</div>
+<div class="bg-white p-3">
+      <h5>Jefen B. De Villa</h5>
+      <h6>2nd Year Bachelor of Science in Information Technology</h6>
+    </div>
+</div>
+
+<div class="bg-dark card container p-0 my-2 border text-white" >
+    <div class="card-header text-light">
+      Courses Taught
+    </div>
+</div>
+    <div class="bg-white container">
+      <div class=" container text-dark p-1 row align-items-start">
+          <table class="table table-dark">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Course Code</th>
+                <th scope="col">Course Title</th>
+                <th scope="col">Terms</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>CSDC105</td>
+                <td>Trends in Application Development</td>
+                <td>1st Semester</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>MTHR001</td>
+                <td>Basics of Calculus</td>
+                <td>1st Semester</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>CSMC312</td>
+                <td>Operating Systems (OS)</td>
+                <td>1st Semester</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>ITEC303</td>
+                <td>Mobile Computing and Communications</td>
+                <td>1st Semester</td>
+              </tr>
+              <tr>
+                <th scope="row">5</th>
+                <td>ITMC311</td>
+                <td>Integratice Programming and Technologies 2 </td>
+                <td>1st Semester</td>
+              </tr>
+              <tr>
+                <th scope="row">6</th>
+                <td>ITEC307</td>
+                <td>UI/UX Design</td>
+                <td>1st Semester</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+    </div>
+
+<div class="bg-dark card container p-0 my-2 border"  >
+    <div class="card-header text-light">
+    Why Information Technology?
+</div>
+<div class = "container text-justify bg-white text-dark p-2 border">
+    <p class=" text-justify">
+      I choose this course because when I was a kid I'm always interested on how things work, especially technology 
+      So came adulthood I want to fulfill those childly desires in me thats why I choose this track to pursue. 
+      Beside from those interest, I consider myself as a gamer. Yes! its not a very best example to give, but 
+      as shallow as it might seem, those thoughts of adoration that I can feel when I play those games drive me to also create one. 
+      The path though to success is kinda hard, i've faced millions of challenges that breaks me and makes me want
+      to quit, but in the end I always reminds myself this phrase "small progress is still a progress"
+    </p>
+</div>
+
+{% endblock %}
